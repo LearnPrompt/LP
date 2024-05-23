@@ -71,7 +71,7 @@ function Team() {
               return (
                 <div
                   key={index}
-                  className='w-full px-4 sm:w-1/2 lg:w-1/6 xl:w-1/6'>
+                  className='w-full px-4 sm:w-1/2 lg:w-1/6 xl:w-1/6 flex items-center flex-col'>
                   <div className='group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none'>
                     {/* 头像 */}
                     <div className='relative z-10 mx-auto mb-5 h-[120px] w-[120px]'>
