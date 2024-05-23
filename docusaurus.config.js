@@ -16,7 +16,7 @@ async function createConfig() {
     organizationName: "aiwarts",
     projectName: "promptgineering",
     deploymentBranch: "gh-pages",
-    trailingSlash: false,
+    trailingSlash: true,
     i18n: {
       defaultLocale: "en",
       locales: [
