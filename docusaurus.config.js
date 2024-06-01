@@ -30,6 +30,10 @@ async function createConfig() {
           "https://tag.clearbitscripts.com/v1/pk_5621ff511ea83a6ec015bee0a0b5dd79/tags.js",
         async: true,
       },
+      {
+        src: '/js/detectLanguage.js',
+        async: true,
+      },
     ],
     plugins: [
       '@docusaurus/plugin-ideal-image',
