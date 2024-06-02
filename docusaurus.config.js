@@ -23,6 +23,14 @@ async function createConfig() {
         "en",
         "zh-Hans",
       ],
+      localeConfigs: {
+        zh: {
+          htmlLang: 'zh-Hans',
+        },
+        en: {
+          htmlLang: 'en-GB',
+        },
+      },
     },
     scripts: [
       {
