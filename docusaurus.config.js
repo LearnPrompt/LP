@@ -166,7 +166,7 @@ async function createConfig() {
         {
           name: "keywords",
           content:
-            "prompting, prompt engineering, learn prompting, learn, prompt, AI, chatGPT",
+            "prompting, prompt engineering, learn prompting, learn, prompt, AI, chatGPT, How to use ChatGPT'",
         },
         {
           name: "og:title",
