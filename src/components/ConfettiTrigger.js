@@ -20,7 +20,7 @@ const ConfettiTrigger = () => {
 
     return (
         <div style={{ textAlign: 'center' }}>
-        <img src={imagePath} aonClick={onClap} style={{ cursor: 'pointer', borderRadius: '50%', width: '100px', height: '100px' }} />
+        <img src={imagePath} onClick={onClap} style={{ cursor: 'pointer', borderRadius: '50%', width: '100px', height: '100px' }} />
         </div>
     );
 };

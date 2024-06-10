@@ -16,32 +16,19 @@ async function createConfig() {
     organizationName: "aiwarts",
     projectName: "promptgineering",
     deploymentBranch: "gh-pages",
-    trailingSlash: false,
+    trailingSlash: true,
     i18n: {
       defaultLocale: "en",
       locales: [
         "en",
-        "es",
-        "fr",
-        "ja",
-        "pt",
         "zh-Hans",
-        "zh-tw",
-        "ko",
-        "ru",
-        "ar",
-        "de",
-        "uk",
-        "id",
       ],
       localeConfigs: {
-        'zh-tw': {
-          label: '繁體中文',
-          direction: 'ltr',
+        zh: {
+          htmlLang: 'zh-Hans',
         },
-        'ur': {
-          label: 'اردو',
-          direction: 'rtl',
+        en: {
+          htmlLang: 'en-GB',
         },
       },
     },
@@ -49,6 +36,10 @@ async function createConfig() {
       {
         src:
           "https://tag.clearbitscripts.com/v1/pk_5621ff511ea83a6ec015bee0a0b5dd79/tags.js",
+        async: true,
+      },
+      {
+        src: '/js/detectLanguage.js',
         async: true,
       },
     ],
@@ -183,7 +174,7 @@ async function createConfig() {
         {
           name: "keywords",
           content:
-            "prompting, prompt engineering, learn prompting, learn, prompt, AI, chatGPT",
+            "prompting, prompt engineering, learn prompting, learn, prompt, AI, chatGPT, How to use ChatGPT'",
         },
         {
           name: "og:title",
@@ -272,16 +263,11 @@ async function createConfig() {
             type: "localeDropdown",
             position: "right",
           },
-          { to: '/blog', label: '📰 Changelog', position: 'right' },
-          { to: '/friends', label: '👬 Blogroll', position: 'right'},
-          {
-            href: "https://chat.learnprompt.pro/",
-            label: "💰 FreeGPT",
-            position: "right",
-          },
+          { to: '/blog', label: '📰 ChangeLog', position: 'right' },
+          { to: '/friends', label: '👬 BlogRoll', position: 'right'},
           {
             to: "/project",
-            label: "🚀  有号",
+            label: "🚀 AiStore",
             position: "right",
           },
           // {
