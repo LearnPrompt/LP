@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+sidebar_position: 45
 title: 2023, A Year of AI
 description: This page summarizes significant advancements and events in artificial intelligence in 2023.
 keywords: [AI, artificial intelligence, 2023, AI advancements, AI events, machine learning]
@@ -8,18 +8,7 @@ slug: /basics/ai-in-2023/
 
 # 🟢 2023: AI 的一年 [译]
 
-type: Post
-status: Published
-date: 2024/02/09
-slug: ai2023
-category: 🤖AI基础
-URL: https://baoyu.io/translations/ai/2023-the-year-of-ai
-
-<aside>
-💡 作者：**[宝玉](https://baoyu.io/translations/ai/2023-the-year-of-ai)
-原文链接：**[https://baoyu.io/translations/ai/2023-the-year-of-ai](https://baoyu.io/translations/ai/2023-the-year-of-ai)
-
-</aside>
+>💡 作者：[宝玉](https://baoyu.io/translations/ai/2023-the-year-of-ai)
 
 *更正：在 2023 年 12 月 22 日发布的原博客中，标题“AI 发布（AI Releases）”造成了误解，因为内容涵盖了公告、更新及发布等多方面。我们对文本和信息图的标题进行了澄清。Stability AI 对其大语言模型（LLM）开源的提及未出现在信息图中，但保留在文章里，这强调了其在提升可获取性而非仅仅技术改进方面的重要性。信息图最初展示了 xAI 创业公司的成立，现已因不相关而移除。同时，Apple Vision Pro 的提及也被删去，因为文章更侧重于软件。我们还加入了最新发布的 Midjourney V.6 至列表中。* *这些调整旨在增强文章的准确性和条理性。对于任何可能的困惑，我们深表歉意，并感谢您的理解！*
 
@@ -27,9 +16,7 @@ URL: https://baoyu.io/translations/ai/2023-the-year-of-ai
 
 在今年的 AI 进展方面，重点在于改善现有技术，而非引入类似于[去年的 ChatGPT 或图像生成器](https://journal.everypixel.com/ai-highlights-2022)那样的革命性创新。虽然没有令人震撼的效果，且真正的通用人工智能（AGI）尚未实现，但今年标志着从之前的重大突破向更强大的未来过渡的中间阶段。为了展示这种发展趋势，我们制作了一个视觉时间线，强调了今年在 AI 领域最为显著的进展：
 
-![https://cdn.jsdelivr.net/gh/donttal/imgbed/img/08fa706404aca8aea750bb9f6e31cba7.png](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/08fa706404aca8aea750bb9f6e31cba7.png)
-
-2023: AI 的一年
+![](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/08fa706404aca8aea750bb9f6e31cba7.png)
 
 **图像生成**
 
@@ -38,7 +25,7 @@ URL: https://baoyu.io/translations/ai/2023-the-year-of-ai
 - **DALL·E 3:** 基于 ChatGPT 的 DALL·E 3（[链接](https://journal.everypixel.com/top-ai-news-september-2023)）简化了图像生成过程，避免了复杂的用户输入（prompt）设置。此外，ChatGPT 还推出了一项功能，帮助用户优化输入内容，并根据反馈调整图像。
 - **Shutterstock.AI:** 知名库存图片平台 Shutterstock.AI（[链接](https://journal.everypixel.com/top-ai-news-january-2023)）加入了 AI 功能，使用户能将输入内容转换成可授权的图像。Shutterstock 在推动伦理 AI 方面迈出了重要一步，对贡献的艺术家给予认可和奖励。
 
-![https://cdn.jsdelivr.net/gh/donttal/imgbed/img/6b39fae55ccc1e8058a27268d7a40806.png](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/6b39fae55ccc1e8058a27268d7a40806.png)
+![](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/6b39fae55ccc1e8058a27268d7a40806.png)
 
 文本到图像算法的演变，2007 对比 2023
 

@@ -1,3 +1,5 @@
+import Translate, { translate } from '@docusaurus/Translate'
+
 import CodeBlock from '@theme/CodeBlock'
 import FriendCard from './_components/FriendCard'
 import { Friends } from '@site/data/friends'
@@ -6,33 +8,17 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import styles from './styles.module.css'
 
-const TITLE = '友链'
-const DESCRIPTION = '有很多良友，胜于有很多财富。'
 const ADD_FRIEND_URL = 'https://github.com/LearnPrompt/LP/edit/v4/data/friends.tsx'
-const SITE_INFO = `
-title: '卡尔'
-description: '让每个人成为AI创作者
-website: 'https://www.learnprompt.pro/'
-avatar: '/img/logo.png'
-`
-
-function SiteInfo() {
-  return (
-    <div className={styles.siteInfo}>
-      <CodeBlock language="yaml" title="本站信息">
-        {SITE_INFO}
-      </CodeBlock>
-    </div>
-  )
-}
 
 function FriendHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <h1>{TITLE}</h1>
-      <p>{DESCRIPTION}</p>
+      <h1>
+        <Translate>Friends</Translate>
+      </h1>
+      <p>{translate({ message: 'Having many good friends is better than having a lot of wealth.' })}</p>
       <a className="button button--primary" href={ADD_FRIEND_URL} target="_blank" rel="noreferrer">
-        🔗 申请友链
+        🔗 Link Exchange
       </a>
     </section>
   )
@@ -56,6 +42,8 @@ function FriendCards() {
 
 export default function FriendLink(): JSX.Element {
   const ref = React.useRef<HTMLDivElement>(null)
+  const TITLE = 'Friends';
+  const DESCRIPTION = 'Having many good friends is better than having a lot of wealth.';
 
   return (
     <Layout title={TITLE} description={DESCRIPTION}>

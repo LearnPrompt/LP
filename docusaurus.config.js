@@ -264,7 +264,7 @@ async function createConfig() {
             position: "right",
           },
           { to: '/blog', label: '📰 ChangeLog', position: 'right' },
-          { to: '/friends', label: '👬 BlogRoll', position: 'right'},
+          { to: '/friends', label: '👬 Friends', position: 'right'},
           {
             to: "/project",
             label: "🚀 AiStore",
@@ -280,7 +280,7 @@ async function createConfig() {
       announcementBar: {
         id: "announcement",
         content:
-          '🌟 If you have any questions, feel free to join our <a href="https://discord.gg/w6ZjEc2g">community</a> 🌟',
+          '🌟 If you have any questions, feel free to join our <a href="https://discord.gg/w6ZjEc2g">Discord</a> 🌟',
         backgroundColor: "#8f77b5",
         textColor: "#000",
         isCloseable: true,
