@@ -1,116 +1,82 @@
 ---
 sidebar_position: 1
+title: Welcome
+description: LearnPrompt.pro 4.0 is here to teach you everything about AI, from prompts to advanced AI applications, in a simple and engaging way.
+keywords: [AI, LearnPrompt, LearnPrompt.pro 4.0, AI沃茨, AI教程, 开源社区, ChatGPT, Midjourney, AI课程]
+slug: /intro
 ---
-import CodeBlock from '@theme/CodeBlock';
+# 👋Welcome
 
-# Prompt Engineering Guide
+> We hope to let everyone access AI, understand AI, and become AI creators.
+>
 
-import Astronaut from '@site/docs/assets/astronaut_welcome.webp';
+Welcome👏! The open-source community "AI-warts" has released the long-awaited **4.0** version update of LearnPrompt.pro! This open-source AIGC course website aims to teach more people about AI. Just as the name LearnPrompt.pro suggests, Prompt is the communication bridge between AI and us, and the first step in learning to master AI often begins with learning and using Prompts.
 
-<div style={{textAlign: 'center'}}>
-  <img src={Astronaut} style={{width: "100%"}}/>
-</div>
+Version 4.0 not only showcased how to master AI models to generate stunning content output through various convenient methods, but we also delved into various aspects related to AI. AI technology is rapidly evolving, from the initial ChatGPT to now text-to-image Midjourney, text-to-video Runway, digital human creation software HeyGen, and the open-source large model Llama2. We hope this course can help everyone have a more comprehensive understanding of AI, understand the impact and applications of AI technology, and have the ability to think independently in the AI wave.
 
-<h4>Welcome to Learn Prompting's Introductory Course on Generative AI and Prompt Engineering! </h4>
+With the development of the AI era, the barriers to using AI will gradually lower! Initially, we needed hundreds of courses to learn AI, and in the AGI era, our course pages will decrease or even clear, leaving only one sentence: "ALL you need is chat with AI." This is our mission!
 
-Generative AI is the world's hottest buzzword, and we have created the most comprehensive (*and free*) guide on how to use it. This course is tailored to non-technical readers, who may not have even heard of AI, making it the perfect starting point if you are new to Generative AI and Prompt Engineering. Technical readers will find valuable insights within our later modules.
+**A good tutorial is about subtraction, one article is enough.**
 
-Generative AI refers to tools that can be used to create new content such as articles or images, just like humans can. It is expected to significantly change the way we work(@Davenport_Mittal_2022)(@Captain_2023) (read: *your job may be affected*[^a]). With so much buzz floating around about Generative AI (Gen AI) and Prompt Engineering (PE), it is hard to know what to believe.
+## 🚀 Course Features
 
-We have scoured the internet[^c] to find the best techniques and tools for our 1.3 Million readers from companies like OpenAI, Brex, and Deloitte. We are constantly refining our guide, to ensure that we provide you with the latest information. Lets see how Gen AI can save you hours of time in an instant, with a short example.
+- Rapid Iteration: To maintain the timeliness of the course, we will regularly publish refined articles on the latest technology. Please let us know your focus at any time.
+- Practical First: We are committed to teaching practical technology that can be directly implemented, allowing you to quickly integrate what you have learned into your projects and applications.
+- Reproducible Examples: Practice is the best teacher! We will provide detailed examples and strongly encourage you to run cases with corresponding AI products to enhance memory.
+- Progress Together: We believe that communication can further enhance learning effects. Any questions can be told to us through GitHub issues or by joining the study group.
+- Share Freely: LearnPrompt.pro believes in the open-source philosophy and insists on long-termism. Feel free to share excellent resources and knowledge, and we will synchronize them into the course.
 
-## Motivating Example
+We have carefully organized each chapter, and you can explore topics of interest freely without following a fixed order. According to the difficulty level of the articles and the required knowledge range, we maintain a tag system:
 
-Our favorite way of saving time with Gen AI is automatically **writing emails**. By automating email responses, email editing, and cold outreach, we save hours of time each week. By sending an AI[^b] the following *prompt*, we can get it to generate a full length, formal email.  
+- 🟢 **Beginner Friendly**: Suitable for complete novices, no prior knowledge required.
+- 🟡 **Simple**: Easy to get started with basic AI knowledge.
+- 🔴 **Advanced**: Suitable for learners with specific field knowledge, deep learning, and practice to expand professional skills. Please note that even articles marked as 🔴 Advanced can be gradually understood by studying our 🟢 Beginner Friendly and 🟡 Simple chapters.
 
-:::tip
-A prompt is basically an instruction you give to an AI. We will learn more about them in the next lesson.
-:::
+## 📖 Recommended Learning Methods
 
-<AIInput>
-{`I am the CEO of a medium sized company. Write a short email that is humorous yet professional to my regional manager. Ask them to:
-- send me an up-to-date list of our paper stock
-- organize a meeting this week with other regional managers
-- let me know how the company-wide AI workshop went at their office`}
-</AIInput>
+We recommend the "First Principles of Instruction" proposed by Professor David Merrill:
 
-<AIOutput>
-Subject: Paper, Power Meetings, and AI Shenanigans
+- Principle 1: Problem-Centered - Learning is promoted when learners are engaged in solving real-world problems.
+- Principle 2: Activation - Learning is promoted when existing knowledge is activated as a foundation for new knowledge.
+- Principle 3: Demonstration - Learning is promoted when new knowledge is demonstrated to the learner.
+- Principle 4: Application - Learning is promoted when learners apply new knowledge.
+- Principle 5: Integration - Learning is promoted when new knowledge is integrated into the learner's world.
 
-Dear [Regional Manager's Name],
+![David Merrill‘s First Principles of Instruction](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/7f753203b83ae02138d00baf814d8070.png)
 
-I trust this email finds you in high spirits and not buried under a mountain of paperwork. Speaking of paper, I've been having some wild dreams about our paper stock lately. I dreamt we ran out of paper and had to write our reports on banana leaves! To prevent this tropical nightmare from becoming a reality, could you kindly send me an up-to-date list of our paper stock?
+## 💪 Join Us
 
-Next on the agenda, I've been feeling a bit lonely in my ivory tower and thought it would be a great idea to have a meeting with all the regional managers this week. I promise, no trust falls or awkward ice breakers, just good old-fashioned business talk. Please organize this meeting at a time that suits everyone. 
+Thank you for your enthusiastic support of the course content! We "AI-warts" have established 50 learning groups with more than 20,000 people learning and exchanging knowledge together. Feel free to scan the QR code below to join our learning community directly!
 
-Lastly, I've been hearing whispers about the company-wide AI workshop that took place at your office. I'm curious to know how it went. Did the machines rise against their human overlords or are we still safe? Please share your thoughts and any feedback you received.
+![aiwarts qrcode](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/920c95b3b364dbd4aa766a5a47974ba4.jpg)
 
-Looking forward to your prompt response. Remember, the fate of our paper supply, the success of our meeting, and the future of humanity (in relation to AI) rests in your hands. No pressure!
+We welcome everyone to share actively and speak freely!
 
-Best,
+[Business cooperation & article reprint & project submission](https://mp.weixin.qq.com/s/QoYkpuCeRFfcWG_l04Y_QA), welcome to add WeChat or WeChat public account.
 
-[Your Name]
-[Your Position]
-</AIOutput>
+## 💥 More Content
 
-The AI easily writes an email that is both humorous and professional. By modifying the *prompt*, we can make it change the style as we see fit. We can even make it copy how we read. We can also make it edit emails that we have already written! With all of these abilities, Gen AI saves us hours in email writing each week. See [this article](https://learnprompting.org/docs/basic_applications/writing_emails) for more information on writing emails with Gen AI.
+We also have a small shop (YouhaoFriends) to solve everyone's account issues: [https://www.learnprompt.pro/aiMarket](https://www.learnprompt.pro/aiMarket)
 
-## Ethos and Philosphy
+In addition to this tutorial, we also welcome everyone to follow us on more social platforms:
 
-We will now give a broad overview of the rest of the course, including our ethos and philosophy, our teaching style, and a list of modules. This course is open source (anyone can see the code), and built by a diverse community of researchers, translators, and hobbyists. We believe that AI should be accessible to everyone, and that it should be described clearly and objectively. To this end, we have written a comprehensive course that is free of excessive jargon and hype.
+- X: [@aiwarts](https://twitter.com/aiwarts?s=21&t=X4Wyu-b0lnJmwwLh9WXr7Q) (24 hours online, sharing fun AI tech news)
+- [Xiaohongshu](https://www.xiaohongshu.com/user/profile/5b003bce11be10430bf33433?m_source=pinpai): Various wallpaper and avatar sharing for MJ, latest MJ news
+- Douyin: 卡尔的AI沃茨 (AI tool collection & comprehensive operation guide)
+- Wechat Public account: 卡尔的AI沃茨 (synchronously updating AI series courses, Agent/RAG/GPTs)
 
-We have found this approach to be appreciated by the prompt engineering community: This course is cited by [Wikipedia](https://en.wikipedia.org/wiki/Prompt_engineering#cite_ref-15), and is used by people at companies such as [O'REILLY](https://learning.oreilly.com/live-events/prompt-engineering-for-generating-ai-art-and-text/0636920084340/0636920084339/), Scale AI, and OpenAI. You may also notice that <a href="https://youtu.be/GPqSoiOP3w8?t=274" rel={"nofollow"}>almost </a><a href="https://learnwithhasan.com/prompt-engineering-guide/" rel={"nofollow"}>every </a><a href="https://www.youtube.com/watch?v=EYjG6i53-xk" rel={"nofollow"}>other </a> <a href="https://youtu.be/yR4hNBNS6yc?t=743" rel={"nofollow"}>prompt </a> <a href="https://youtu.be/pZsJbYIFCCw?t=208" rel={"nofollow"}>engineering </a> <a href="https://youtu.be/4kp7oVTu9Ck?t=495" rel={"nofollow"}>video </a> <a href="https://www.youtube.com/watch?v=q5wuHUmGFMw" rel={"nofollow"}>and </a> <a href="https://youtu.be/f8PGV3T9w38?t=549" rel={"nofollow"}>guide </a>
-uses material from this course. We are honored to support the prompt engineering community, including our 1.3M+ users and 40K+ [Discord](https://discord.gg/learn-prompting-1046228027434086460) members.
+We believe we can create better content together. Welcome to join us and become a course developer 😄!
 
-## How We Teach
+## ☕️ Buy Me a CokeCola
 
-Our approach to teaching prompt engineering is guided by three fundamental principles. We emphasize practicality; we focus on research backed, practical techniques that you can immediately incorporate into your projects and applications. We always include accessible examples, which clarify how and when to use different techniques. Finally, we believe strongly in collaborative learning. You can join our [Discord community](https://learnprompting.org/discord) to find a learning buddy or ask questions. Some readers find that posting about their learning journey on Twitter helps them learn faster. Tag us @[learnprompting](https://twitter.com/learnprompting)!
+If you like the free content on our website and are willing to support us to continue creating more exciting content, you can donate any amount to our "Coke" fund. Thank you for every Coke~!
 
-## Modules
+![support us](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/b6e3329b8e6918f9cbc253bdcb52ce83.jpg)
 
-**Basics**: Introduction to prompt engineering and fundamental techniques<br/>
-**Basic Applications**: Simple, practical applications of prompt engineering<br/>
-**Intermediate**: Research-based PE techniques with moderate complexity<br/>
-**Applied Prompting**: Comprehensive PE process walkthroughs contributed by community members<br/>
-**Advanced Applications**: Powerful, and more complex applications of prompt engineering<br/>
-**Reliability**: Enhancing the reliability of large language models (LLMs)<br/>
-**Image Prompting**: Prompt engineering for text-to-image models, such as DALLE and Stable Diffusion<br/>
-**Prompt Hacking**: Hacking, but for prompt engineering<br/>
-**Tooling**: A review of various prompt engineering tools and IDEs<br/>
-**Prompt Tuning**: Refining prompts using gradient-based techniques<br/>
-**Miscellaneous**: A collection of additional topics and techniques related to prompt engineering
+## 🙆 Special Thanks
 
-## Article rating system
+The writing of this tutorial refers to the content and examples of the following tutorials or documents. Thank you to the creators for their contributions!
 
-We have implemented a rating system for articles based on their level of difficulty and the extent of technical knowledge needed:
-
-🟢 Beginner-friendly; no programming required<br/>
-🟡 Easy; basic programming knowledge necessary, but no specialized expertise<br/>
-🔴 Intermediate; programming skills and some domain knowledge required (e.g., calculating logarithmic probabilities)<br/>
-🟣 Advanced; programming expertise and in-depth domain understanding needed (e.g., reinforcement learning techniques)
-
-Please note that even for 🔴 and 🟣 articles, you can generally grasp the content without prior domain expertise, though it may be helpful for implementation.
-
-
-
-## Feedback
-
-The single most important part of this course is your feedback!<br/>
-If you have any questions, comments, or suggestions, you can:
-
-- Make an [issue on GitHub](https://github.com/trigaten/Learn_Prompting/issues/new/choose)
-- Email us at [learnprompting@gmail.com](mailto:learnprompting@gmail.com)
-- Join the [Discord community](https://learnprompting.org/discord)
-- Follow us on [Twitter](https://twitter.com/learnprompting)
-
-Your feedback helps us improve the course for everyone.
-
-[^a]: Generative AI already appears to have claimed some jobs(@Verma_Vynck_2023), and slowed hiring at Bloomberg(@IBM_Do_2023). However, consider the news on its impact with a grain of salt. We expect more jobs to be *changed* rather than lost.
-[^b]: The AI used here is GPT-4.
-[^c]: We have read 100s of research papers and articles to find the best techniques.
-
-## Conclusion
-
-It is time to get started with your Generative AI learning Journey. Click the "😃 Basics" button at the bottom right of this page to continue.
-
-<!-- Prompt engineering (PE) is the process of **communicating effectively with an AI to achieve desired results**. As AI technology continues to rapidly advance, the ability to master prompt engineering has become a particularly valuable skill. Prompt engineering techniques can be applied to a wide variety of tasks, making it a useful tool for anyone seeking to improve their efficiency in both everyday and innovative activities. -->
+1. [Learn Prompting](https://learnprompting.org/zh-Hans/)
+2. [Midjourney Documentation](https://docs.midjourney.com/)
+3. [Aituts](https://aituts.com/)
