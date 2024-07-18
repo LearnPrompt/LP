@@ -263,7 +263,7 @@ async function createConfig() {
             type: "localeDropdown",
             position: "right",
           },
-          { to: '/blog', label: '📰 ChangeLog', position: 'right' },
+          { to: '/blog', label: '📰 What\'s Hot', position: 'right' },
           { to: '/friends', label: '👬 Friends', position: 'right'},
           {
             to: "/project",
