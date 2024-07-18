@@ -270,6 +270,11 @@ async function createConfig() {
             label: "🚀 AiStore",
             position: "right",
           },
+          {
+            href: "https://vip.learnprompt.pro/",
+            label: "👑 VIP",
+            position: "right",
+          },
           // {
           //   href: "https://github.com/trigaten/Learn_Prompting/releases",
           //   label: "Change Log",

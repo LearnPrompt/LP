@@ -1,13 +1,13 @@
-import React from "react";
-import clsx from "clsx";
-import { ThemeClassNames } from "@docusaurus/theme-common";
-import { useDoc } from "@docusaurus/theme-common/internal";
-import LastUpdated from "@theme/LastUpdated";
-import EditThisPage from "@theme/EditThisPage";
-import TagsListInline from "@theme/TagsListInline";
-import styles from "./styles.module.css";
 import Course from './course';
+import EditThisPage from "@theme/EditThisPage";
+import LastUpdated from "@theme/LastUpdated";
+import React from "react";
 import SignUp from './signup';
+import TagsListInline from "@theme/TagsListInline";
+import { ThemeClassNames } from "@docusaurus/theme-common";
+import clsx from "clsx";
+import styles from "./styles.module.css";
+import { useDoc } from "@docusaurus/theme-common/internal";
 
 const courses = [
 {
@@ -97,14 +97,6 @@ export default function DocItemFooter() {
       className={clsx(ThemeClassNames.docs.docFooter, "docusaurus-mt-lg")}
     >
 
-      <h2 style={{marginTop: 60, marginBottom: 32, fontSize: 32}}>
-       Want to learn more?</h2>
-      <div className={styles.courses}>
-        {/* for oai */}
-        {courses.filter(c => c).slice(0, 2).map(c => <Course key={c.name} src={c.src} srcset={c.srcset} {...c}/>)}
-      </div>
-
-      <br />
       <SignUp/>
       {canDisplayTagsRow && <TagsRow tags={tags} />}
       {canDisplayEditMetaRow && (
