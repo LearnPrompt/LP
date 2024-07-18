@@ -4,8 +4,10 @@ title: Welcome
 description: LearnPrompt.pro 4.0 is here to teach you everything about AI, from prompts to advanced AI applications, in a simple and engaging way.
 keywords: [AI, LearnPrompt, LearnPrompt.pro 4.0, AI沃茨, AI教程, 开源社区, ChatGPT, Midjourney, AI课程]
 slug: /intro
+author: Carl
+last_updated: 2024-07-18
 ---
-# 👋Welcome
+# 👋 Welcome
 
 > We hope to let everyone access AI, understand AI, and become AI creators.
 >
