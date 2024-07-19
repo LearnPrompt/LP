@@ -128,7 +128,7 @@ Compared to System prompts, the method to retrieve uploaded files is much simple
 
 The simplest method:
 
-- [Visit this URL]((https://gptstore.ai/plugins))
+- [Visit this URL](https://gptstore.ai/plugins)
 - Search for the GPT name
 - Find the plugin API documentation
 

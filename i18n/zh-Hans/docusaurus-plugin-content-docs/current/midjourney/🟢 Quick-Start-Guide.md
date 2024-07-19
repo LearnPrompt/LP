@@ -45,7 +45,7 @@ Midjourney 给新用户创建了 Newbies 新手频道，我们只需要在左侧
 2. 在**"prompt"**字段中输入你想创建的图像的文本描述。
 3. 回车以发送你的信息。Midjourney Bot将会产生一个弹出窗口，要求你接受服务条款。你必须同意服务条款才能生成图片。
 
-![MJ_ImagineCommand](%F0%9F%9F%A2%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%204a532841714244eea2ab508c2c1f2005/MJ_ImagineCommand.gif)
+![MJ_ImagineCommand](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/8d2274af7d5b99ff08de7946db36504c.gif)
 
 例如，我们输入：dog is playing ball, cute, fluffy
 

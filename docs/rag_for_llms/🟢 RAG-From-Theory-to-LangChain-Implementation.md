@@ -98,7 +98,7 @@ You need to prepare a vector database to store all the additional information as
 - Document chunking
 - Embedding and storing
 
-First, collect and load the data: We will use [Biden's 2022 State of the Union address]((https://www.whitehouse.gov/state-of-the-union-2022/)) as additional background knowledge. The raw file is available on [LangChain's GitHub](https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/docs/modules/state_of_the_union.txt). LangChain also provides many built-in document loaders （[`DocumentLoader`](https://api.python.langchain.com/en/latest/api_reference.html#module-langchain.document_loaders)）. A document（`Document`）is a dictionary containing text and metadata. Here, we use the built-in `TextLoader` to load the text into the database.
+First, collect and load the data: We will use [Biden's 2022 State of the Union address](https://www.whitehouse.gov/state-of-the-union-2022/) as additional background knowledge. The raw file is available on [LangChain's GitHub](https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/docs/modules/state_of_the_union.txt). LangChain also provides many built-in document loaders （[`DocumentLoader`](https://api.python.langchain.com/en/latest/api_reference.html#module-langchain.document_loaders)）. A document（`Document`）is a dictionary containing text and metadata. Here, we use the built-in `TextLoader` to load the text into the database.
 
 ```python
 import requests

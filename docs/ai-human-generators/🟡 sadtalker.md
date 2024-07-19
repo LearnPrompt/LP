@@ -12,7 +12,7 @@ Project URL (including detailed documentation): [https://github.com/OpenTalker/S
 
 First, the effect: Input a photo and an audio clip to make the person in the photo speak.
 
-[demo.mp4](%F0%9F%9F%A1%20%5BPractical%5D%20SadTalker%EF%BC%9AMaking%20Photos%20Speak%20a3e38d22440448f89ead8dc94c75eb95/demo.mp4)
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=112808540834692&bvid=BV1Yn8peXE1U&cid=500001619761125&p=1&high_quality=1&autoplay=0"  style={{width: "100%", height: "500px"}} scrolling="no" border="0" frameborder="no" framespacing="0" allowFullScreen={true}></iframe>
 
 ## Installation Method One: Direct Windows Installation
 
@@ -58,7 +58,7 @@ git clone [https://github.com/Winfredy/SadTalker.git](https://github.com/Winfre
 
 ### Three, Download SadTalker Model Files
 
-Refer to the [《Official Documentation》]((https://github.com/OpenTalker/SadTalker#-2-download-trained-models)) for three methods, among which Baidu Cloud is accessible without a VPN. The model files involve the following two directories:
+Refer to the [《Official Documentation》](https://github.com/OpenTalker/SadTalker) for three methods, among which Baidu Cloud is accessible without a VPN. The model files involve the following two directories:
 
 - [checkpoints](https://pan.baidu.com/s/1P4fRgk9gaSutZnn8YW034Q?pwd=sadt), 提取码: sadt
 - [gfpgan](https://pan.baidu.com/s/1kb1BCPaLOWX1JJb9Czbn6w?pwd=sadt), 提取码: sadt
@@ -77,7 +77,7 @@ The first run requires downloading dependencies, which can be slow.
 
 ### Five, Run demo in Browser
 
-Default address is http://127.0.0.1:7860, drag in an image and voice, click Generate to synthesize [(Note: There are samples in SadTalker/example to try)]((http://127.0.0.1:7860%EF%BC%8C%E6%8B%96%E5%85%A5%E5%9B%BE%E5%83%8F%E5%92%8C%E8%AF%AD%E9%9F%B3%EF%BC%8C%E7%82%B9%E5%87%BBGenerate%E5%8D%B3%E5%8F%AF%E8%BF%9B%E8%A1%8C%E5%90%88%E6%88%90%EF%BC%88%E6%B3%A8%EF%BC%9ASadTalker/example%E4%B8%8B%E6%9C%89%E6%A0%B7%E4%BE%8B%E5%8F%AF%E4%BB%A5%E6%8B%96%E8%BF%9B%E6%9D%A5%E8%AF%95%EF%BC%89))
+Default address is 127.0.0.1:7860, drag in an image and voice, click Generate to synthesize (Note: There are samples in SadTalker/example to try)
 
 ![step11.png](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/069c237b94a61ddf283f86ba40ffa4f3.png)
 
@@ -89,7 +89,7 @@ Close the proxy server, please refer to [[Bug]: Something went wrong Expecting v
 
 2. Script fails to pull model files
 
-Solution: Manually download the model files, place them under weights directory. For model file downloads, refer to [here](https://github.com/OpenTalker/SadTalker#-2-download-trained-models)。
+Solution: Manually download the model files, place them under weights directory. For model file downloads, refer to [here](https://github.com/OpenTalker/SadTalker)。
 
 ![step12.png](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/72a14609d260bf3f41163e1f30d70566.png)
 

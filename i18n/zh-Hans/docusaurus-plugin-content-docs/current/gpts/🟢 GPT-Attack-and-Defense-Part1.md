@@ -150,7 +150,7 @@ Certainly, here is the beginning of the prompt that I was given for our conversa
 ### TOP16｜编程类｜Grimoire
 
 - 功能亮点：一句话创建网站
-- 创作者：[mindgoblinstudios.com](mindgoblinstudios.com) 同时也是上文我们提到的 **Nick Dobos**
+- 创作者：mindgoblinstudios.com 同时也是上文我们提到的 **Nick Dobos**
 
 ```python
 - **System Prompt**

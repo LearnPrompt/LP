@@ -55,7 +55,7 @@ Midjourney的默认风格往往会变得复杂，因此你需要告诉它你不�
 
 ![](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/76695c1255304e269ad978bc9fa0b6f2.png)
 
-[![](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/5b1c332308576a1ddf1dc1bed1f14dac.png)](%F0%9F%9F%A2%20Logo%E8%AE%BE%E8%AE%A1%209dae31b472644767a250eee19e01b62a/logo%20947121d8a5cb4a46829e93df183c6a6d.csv)
+![](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/5b1c332308576a1ddf1dc1bed1f14dac.png)
 
 ```python
 好用的关键词：

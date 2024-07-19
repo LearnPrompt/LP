@@ -116,7 +116,7 @@ Modern Architectural Design, methodical use of space, artistic, Modernism, photo
 
 ### Gothic architecture
 
-[](%F0%9F%9F%A2%20%E5%BB%BA%E7%AD%91%E8%AE%BE%E8%AE%A1%204299c3e821b24fe08d30713491f99c9f/architects10.webp)
+![](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/c2205bc2be02d14b80c65202ccbdc18f.webp)
 
 ```python
 Gothic architectural Design, flying exterior buttresses, long stained-glass windows, ribbed vaults, and spires, photo by Hélène Binet --ar 16:9
